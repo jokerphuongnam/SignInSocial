@@ -1,0 +1,1055 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D30DCFF2C3BBAF1006E083C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D30DCFE2C3BBAF0006E083C /* SceneDelegate.swift */; };
+		3D30DD002C3BBAF1006E083C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D30DCFE2C3BBAF0006E083C /* SceneDelegate.swift */; };
+		3D30DD012C3BBAF1006E083C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D30DCFE2C3BBAF0006E083C /* SceneDelegate.swift */; };
+		3D30DD032C3BBF65006E083C /* OauthApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D30DD022C3BBF65006E083C /* OauthApplication.swift */; };
+		3D30DD042C3BBF65006E083C /* OauthApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D30DD022C3BBF65006E083C /* OauthApplication.swift */; };
+		3D30DD052C3BBF65006E083C /* OauthApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D30DD022C3BBF65006E083C /* OauthApplication.swift */; };
+		3D30DD082C3BC293006E083C /* TelegramAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D30DD072C3BC293006E083C /* TelegramAuthentication.swift */; };
+		3D30DD092C3BC293006E083C /* TelegramAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D30DD072C3BC293006E083C /* TelegramAuthentication.swift */; };
+		3D30DD0A2C3BC293006E083C /* TelegramAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D30DD072C3BC293006E083C /* TelegramAuthentication.swift */; };
+		3D30DD0D2C3BC36B006E083C /* TelegramWebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D30DD0C2C3BC36B006E083C /* TelegramWebViewViewController.swift */; };
+		3D30DD0E2C3BC36B006E083C /* TelegramWebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D30DD0C2C3BC36B006E083C /* TelegramWebViewViewController.swift */; };
+		3D30DD0F2C3BC36B006E083C /* TelegramWebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D30DD0C2C3BC36B006E083C /* TelegramWebViewViewController.swift */; };
+		3D30DD132C3BCCEC006E083C /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D30DD122C3BCCEC006E083C /* String+Extension.swift */; };
+		3D30DD142C3BCCEC006E083C /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D30DD122C3BCCEC006E083C /* String+Extension.swift */; };
+		3D30DD152C3BCCEC006E083C /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D30DD122C3BCCEC006E083C /* String+Extension.swift */; };
+		3D30DD172C3BCD24006E083C /* TelegramResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D30DD162C3BCD24006E083C /* TelegramResultModel.swift */; };
+		3D30DD182C3BCD24006E083C /* TelegramResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D30DD162C3BCD24006E083C /* TelegramResultModel.swift */; };
+		3D30DD192C3BCD24006E083C /* TelegramResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D30DD162C3BCD24006E083C /* TelegramResultModel.swift */; };
+		3D30DD1C2C3BD05D006E083C /* WalletConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D30DD1B2C3BD05D006E083C /* WalletConnect.swift */; };
+		3D30DD1D2C3BD05D006E083C /* WalletConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D30DD1B2C3BD05D006E083C /* WalletConnect.swift */; };
+		3D30DD1E2C3BD05D006E083C /* WalletConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D30DD1B2C3BD05D006E083C /* WalletConnect.swift */; };
+		3D30DD212C3BD145006E083C /* metamask-ios-sdk in Frameworks */ = {isa = PBXBuildFile; productRef = 3D30DD202C3BD145006E083C /* metamask-ios-sdk */; };
+		3D30DD232C3BD167006E083C /* metamask-ios-sdk in Frameworks */ = {isa = PBXBuildFile; productRef = 3D30DD222C3BD167006E083C /* metamask-ios-sdk */; };
+		3D30DD252C3BD16D006E083C /* metamask-ios-sdk in Frameworks */ = {isa = PBXBuildFile; productRef = 3D30DD242C3BD16D006E083C /* metamask-ios-sdk */; };
+		3D30DD282C3BD430006E083C /* MetamasConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D30DD272C3BD430006E083C /* MetamasConnect.swift */; };
+		3D30DD292C3BD430006E083C /* MetamasConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D30DD272C3BD430006E083C /* MetamasConnect.swift */; };
+		3D30DD2A2C3BD430006E083C /* MetamasConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D30DD272C3BD430006E083C /* MetamasConnect.swift */; };
+		3D30DD2C2C3BD8B6006E083C /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D30DD2B2C3BD8B6006E083C /* Data+Extension.swift */; };
+		3D30DD2D2C3BD8B6006E083C /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D30DD2B2C3BD8B6006E083C /* Data+Extension.swift */; };
+		3D30DD2E2C3BD8B6006E083C /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D30DD2B2C3BD8B6006E083C /* Data+Extension.swift */; };
+		3D802C5B2C37D96200C7BCF5 /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = 3D802C5A2C37D96200C7BCF5 /* FacebookCore */; };
+		3D802C5D2C37D96200C7BCF5 /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 3D802C5C2C37D96200C7BCF5 /* FacebookLogin */; };
+		3D802C5F2C37D96C00C7BCF5 /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = 3D802C5E2C37D96C00C7BCF5 /* FacebookCore */; };
+		3D802C612C37D96C00C7BCF5 /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 3D802C602C37D96C00C7BCF5 /* FacebookLogin */; };
+		3D802C632C37D97200C7BCF5 /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = 3D802C622C37D97200C7BCF5 /* FacebookCore */; };
+		3D802C652C37D97200C7BCF5 /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 3D802C642C37D97200C7BCF5 /* FacebookLogin */; };
+		3D802C672C37D98C00C7BCF5 /* FacebookAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D802C662C37D98C00C7BCF5 /* FacebookAuthentication.swift */; };
+		3D802C682C37D98C00C7BCF5 /* FacebookAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D802C662C37D98C00C7BCF5 /* FacebookAuthentication.swift */; };
+		3D802C692C37D98C00C7BCF5 /* FacebookAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D802C662C37D98C00C7BCF5 /* FacebookAuthentication.swift */; };
+		3D802C6B2C37DA9800C7BCF5 /* SocialAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D802C6A2C37DA9800C7BCF5 /* SocialAuthentication.swift */; };
+		3D802C6C2C37DA9800C7BCF5 /* SocialAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D802C6A2C37DA9800C7BCF5 /* SocialAuthentication.swift */; };
+		3D802C6D2C37DA9800C7BCF5 /* SocialAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D802C6A2C37DA9800C7BCF5 /* SocialAuthentication.swift */; };
+		3D802C702C37E72700C7BCF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D802C6F2C37E72700C7BCF5 /* AppDelegate.swift */; };
+		3D802C712C37E72700C7BCF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D802C6F2C37E72700C7BCF5 /* AppDelegate.swift */; };
+		3D802C722C37E72700C7BCF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D802C6F2C37E72700C7BCF5 /* AppDelegate.swift */; };
+		3D802C742C37E8E100C7BCF5 /* GoogleAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D802C732C37E8E100C7BCF5 /* GoogleAuthentication.swift */; };
+		3D802C752C37E8E100C7BCF5 /* GoogleAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D802C732C37E8E100C7BCF5 /* GoogleAuthentication.swift */; };
+		3D802C762C37E8E100C7BCF5 /* GoogleAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D802C732C37E8E100C7BCF5 /* GoogleAuthentication.swift */; };
+		3D802C7B2C37EA6700C7BCF5 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3D802C7A2C37EA6700C7BCF5 /* GoogleSignInSwift */; };
+		3D802C7F2C37EA6E00C7BCF5 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3D802C7E2C37EA6E00C7BCF5 /* GoogleSignInSwift */; };
+		3D802C832C37EA7300C7BCF5 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3D802C822C37EA7300C7BCF5 /* GoogleSignInSwift */; };
+		3D802C852C3B8B9F00C7BCF5 /* XAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D802C842C3B8B9F00C7BCF5 /* XAuthentication.swift */; };
+		3D802C862C3B8B9F00C7BCF5 /* XAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D802C842C3B8B9F00C7BCF5 /* XAuthentication.swift */; };
+		3D802C872C3B8B9F00C7BCF5 /* XAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D802C842C3B8B9F00C7BCF5 /* XAuthentication.swift */; };
+		3D802C892C3B8CB900C7BCF5 /* SSError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D802C882C3B8CB900C7BCF5 /* SSError.swift */; };
+		3D802C8A2C3B8CB900C7BCF5 /* SSError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D802C882C3B8CB900C7BCF5 /* SSError.swift */; };
+		3D802C8B2C3B8CB900C7BCF5 /* SSError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D802C882C3B8CB900C7BCF5 /* SSError.swift */; };
+		3D802C8E2C3B8E1800C7BCF5 /* OAuthSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3D802C8D2C3B8E1800C7BCF5 /* OAuthSwift */; };
+		3D802C902C3B8E2B00C7BCF5 /* OAuthSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3D802C8F2C3B8E2B00C7BCF5 /* OAuthSwift */; };
+		3D802C922C3B8E3100C7BCF5 /* OAuthSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3D802C912C3B8E3100C7BCF5 /* OAuthSwift */; };
+		3DD23E012C37898400C2DB0E /* SignInSocialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD23E002C37898400C2DB0E /* SignInSocialApp.swift */; };
+		3DD23E072C37898600C2DB0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DD23E062C37898600C2DB0E /* Assets.xcassets */; };
+		3DD23E0A2C37898600C2DB0E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DD23E092C37898600C2DB0E /* Preview Assets.xcassets */; };
+		3DD23E142C37898600C2DB0E /* SignInSocialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD23E132C37898600C2DB0E /* SignInSocialTests.swift */; };
+		3DD23E1E2C37898700C2DB0E /* SignInSocialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD23E1D2C37898700C2DB0E /* SignInSocialUITests.swift */; };
+		3DD23E202C37898700C2DB0E /* SignInSocialUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD23E1F2C37898700C2DB0E /* SignInSocialUITestsLaunchTests.swift */; };
+		3DD23E3B2C379CD300C2DB0E /* SSButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD23E3A2C379CD300C2DB0E /* SSButton.swift */; };
+		3DD23E3C2C379CD300C2DB0E /* SSButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD23E3A2C379CD300C2DB0E /* SSButton.swift */; };
+		3DD23E3D2C379CD300C2DB0E /* SSButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD23E3A2C379CD300C2DB0E /* SSButton.swift */; };
+		3DD23E402C37A26800C2DB0E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD23E3F2C37A26800C2DB0E /* MainView.swift */; };
+		3DD23E412C37A26800C2DB0E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD23E3F2C37A26800C2DB0E /* MainView.swift */; };
+		3DD23E422C37A26800C2DB0E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD23E3F2C37A26800C2DB0E /* MainView.swift */; };
+		3DD23E442C37A65300C2DB0E /* AppleAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD23E432C37A65300C2DB0E /* AppleAuthentication.swift */; };
+		3DD23E452C37A65300C2DB0E /* AppleAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD23E432C37A65300C2DB0E /* AppleAuthentication.swift */; };
+		3DD23E462C37A65300C2DB0E /* AppleAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD23E432C37A65300C2DB0E /* AppleAuthentication.swift */; };
+		3DD23E4B2C37B1BF00C2DB0E /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD23E4A2C37B1BF00C2DB0E /* MainViewModel.swift */; };
+		3DD23E4C2C37B1BF00C2DB0E /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD23E4A2C37B1BF00C2DB0E /* MainViewModel.swift */; };
+		3DD23E4D2C37B1BF00C2DB0E /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD23E4A2C37B1BF00C2DB0E /* MainViewModel.swift */; };
+		3DD23E502C37B28700C2DB0E /* DataState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD23E4F2C37B28700C2DB0E /* DataState.swift */; };
+		3DD23E512C37B28700C2DB0E /* DataState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD23E4F2C37B28700C2DB0E /* DataState.swift */; };
+		3DD23E522C37B28700C2DB0E /* DataState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD23E4F2C37B28700C2DB0E /* DataState.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DD23E102C37898600C2DB0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DD23DF52C37898400C2DB0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DD23DFC2C37898400C2DB0E;
+			remoteInfo = SignInSocial;
+		};
+		3DD23E1A2C37898700C2DB0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DD23DF52C37898400C2DB0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DD23DFC2C37898400C2DB0E;
+			remoteInfo = SignInSocial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D30DCFE2C3BBAF0006E083C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3D30DD022C3BBF65006E083C /* OauthApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OauthApplication.swift; sourceTree = "<group>"; };
+		3D30DD072C3BC293006E083C /* TelegramAuthentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelegramAuthentication.swift; sourceTree = "<group>"; };
+		3D30DD0C2C3BC36B006E083C /* TelegramWebViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelegramWebViewViewController.swift; sourceTree = "<group>"; };
+		3D30DD122C3BCCEC006E083C /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		3D30DD162C3BCD24006E083C /* TelegramResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelegramResultModel.swift; sourceTree = "<group>"; };
+		3D30DD1B2C3BD05D006E083C /* WalletConnect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletConnect.swift; sourceTree = "<group>"; };
+		3D30DD272C3BD430006E083C /* MetamasConnect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetamasConnect.swift; sourceTree = "<group>"; };
+		3D30DD2B2C3BD8B6006E083C /* Data+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Extension.swift"; sourceTree = "<group>"; };
+		3D802C662C37D98C00C7BCF5 /* FacebookAuthentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookAuthentication.swift; sourceTree = "<group>"; };
+		3D802C6A2C37DA9800C7BCF5 /* SocialAuthentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialAuthentication.swift; sourceTree = "<group>"; };
+		3D802C6F2C37E72700C7BCF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D802C732C37E8E100C7BCF5 /* GoogleAuthentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleAuthentication.swift; sourceTree = "<group>"; };
+		3D802C842C3B8B9F00C7BCF5 /* XAuthentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XAuthentication.swift; sourceTree = "<group>"; };
+		3D802C882C3B8CB900C7BCF5 /* SSError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSError.swift; sourceTree = "<group>"; };
+		3DD23DFD2C37898400C2DB0E /* SignInSocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignInSocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DD23E002C37898400C2DB0E /* SignInSocialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInSocialApp.swift; sourceTree = "<group>"; };
+		3DD23E062C37898600C2DB0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DD23E092C37898600C2DB0E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3DD23E0F2C37898600C2DB0E /* SignInSocialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignInSocialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DD23E132C37898600C2DB0E /* SignInSocialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInSocialTests.swift; sourceTree = "<group>"; };
+		3DD23E192C37898600C2DB0E /* SignInSocialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignInSocialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DD23E1D2C37898700C2DB0E /* SignInSocialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInSocialUITests.swift; sourceTree = "<group>"; };
+		3DD23E1F2C37898700C2DB0E /* SignInSocialUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInSocialUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3DD23E3A2C379CD300C2DB0E /* SSButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSButton.swift; sourceTree = "<group>"; };
+		3DD23E3F2C37A26800C2DB0E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		3DD23E432C37A65300C2DB0E /* AppleAuthentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleAuthentication.swift; sourceTree = "<group>"; };
+		3DD23E472C37A6E900C2DB0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3DD23E482C37A7E400C2DB0E /* SignInSocial.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SignInSocial.entitlements; sourceTree = "<group>"; };
+		3DD23E4A2C37B1BF00C2DB0E /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		3DD23E4F2C37B28700C2DB0E /* DataState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataState.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DD23DFA2C37898400C2DB0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D802C8E2C3B8E1800C7BCF5 /* OAuthSwift in Frameworks */,
+				3D802C5D2C37D96200C7BCF5 /* FacebookLogin in Frameworks */,
+				3D802C5B2C37D96200C7BCF5 /* FacebookCore in Frameworks */,
+				3D30DD212C3BD145006E083C /* metamask-ios-sdk in Frameworks */,
+				3D802C7B2C37EA6700C7BCF5 /* GoogleSignInSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DD23E0C2C37898600C2DB0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D802C902C3B8E2B00C7BCF5 /* OAuthSwift in Frameworks */,
+				3D802C612C37D96C00C7BCF5 /* FacebookLogin in Frameworks */,
+				3D802C5F2C37D96C00C7BCF5 /* FacebookCore in Frameworks */,
+				3D30DD232C3BD167006E083C /* metamask-ios-sdk in Frameworks */,
+				3D802C7F2C37EA6E00C7BCF5 /* GoogleSignInSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DD23E162C37898600C2DB0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D802C922C3B8E3100C7BCF5 /* OAuthSwift in Frameworks */,
+				3D802C652C37D97200C7BCF5 /* FacebookLogin in Frameworks */,
+				3D802C632C37D97200C7BCF5 /* FacebookCore in Frameworks */,
+				3D30DD252C3BD16D006E083C /* metamask-ios-sdk in Frameworks */,
+				3D802C832C37EA7300C7BCF5 /* GoogleSignInSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D30DCFA2C3BA649006E083C /* X */ = {
+			isa = PBXGroup;
+			children = (
+				3D802C842C3B8B9F00C7BCF5 /* XAuthentication.swift */,
+				3D30DD022C3BBF65006E083C /* OauthApplication.swift */,
+			);
+			path = X;
+			sourceTree = "<group>";
+		};
+		3D30DCFB2C3BA650006E083C /* Facebook */ = {
+			isa = PBXGroup;
+			children = (
+				3D802C662C37D98C00C7BCF5 /* FacebookAuthentication.swift */,
+			);
+			path = Facebook;
+			sourceTree = "<group>";
+		};
+		3D30DCFC2C3BA658006E083C /* Google */ = {
+			isa = PBXGroup;
+			children = (
+				3D802C732C37E8E100C7BCF5 /* GoogleAuthentication.swift */,
+			);
+			path = Google;
+			sourceTree = "<group>";
+		};
+		3D30DCFD2C3BA660006E083C /* Apple */ = {
+			isa = PBXGroup;
+			children = (
+				3DD23E432C37A65300C2DB0E /* AppleAuthentication.swift */,
+			);
+			path = Apple;
+			sourceTree = "<group>";
+		};
+		3D30DD062C3BC27F006E083C /* Telegram */ = {
+			isa = PBXGroup;
+			children = (
+				3D30DD072C3BC293006E083C /* TelegramAuthentication.swift */,
+				3D30DD0C2C3BC36B006E083C /* TelegramWebViewViewController.swift */,
+				3D30DD162C3BCD24006E083C /* TelegramResultModel.swift */,
+			);
+			path = Telegram;
+			sourceTree = "<group>";
+		};
+		3D30DD0B2C3BC2BC006E083C /* Authentications */ = {
+			isa = PBXGroup;
+			children = (
+				3D802C6A2C37DA9800C7BCF5 /* SocialAuthentication.swift */,
+				3D30DCFD2C3BA660006E083C /* Apple */,
+				3D30DCFB2C3BA650006E083C /* Facebook */,
+				3D30DCFC2C3BA658006E083C /* Google */,
+				3D30DCFA2C3BA649006E083C /* X */,
+				3D30DD062C3BC27F006E083C /* Telegram */,
+			);
+			path = Authentications;
+			sourceTree = "<group>";
+		};
+		3D30DD102C3BC731006E083C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3DD23E3F2C37A26800C2DB0E /* MainView.swift */,
+				3DD23E4A2C37B1BF00C2DB0E /* MainViewModel.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3D30DD112C3BCCDF006E083C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3D30DD122C3BCCEC006E083C /* String+Extension.swift */,
+				3D30DD2B2C3BD8B6006E083C /* Data+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3D30DD1A2C3BCFB0006E083C /* Wallets */ = {
+			isa = PBXGroup;
+			children = (
+				3D30DD1B2C3BD05D006E083C /* WalletConnect.swift */,
+				3D30DD262C3BD423006E083C /* Metamask */,
+			);
+			path = Wallets;
+			sourceTree = "<group>";
+		};
+		3D30DD262C3BD423006E083C /* Metamask */ = {
+			isa = PBXGroup;
+			children = (
+				3D30DD272C3BD430006E083C /* MetamasConnect.swift */,
+			);
+			path = Metamask;
+			sourceTree = "<group>";
+		};
+		3D802C592C37D96200C7BCF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D802C6E2C37E71800C7BCF5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3DD23E002C37898400C2DB0E /* SignInSocialApp.swift */,
+				3D802C6F2C37E72700C7BCF5 /* AppDelegate.swift */,
+				3D30DCFE2C3BBAF0006E083C /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		3DD23DF42C37898400C2DB0E = {
+			isa = PBXGroup;
+			children = (
+				3DD23DFF2C37898400C2DB0E /* SignInSocial */,
+				3DD23E122C37898600C2DB0E /* SignInSocialTests */,
+				3DD23E1C2C37898700C2DB0E /* SignInSocialUITests */,
+				3DD23DFE2C37898400C2DB0E /* Products */,
+				3D802C592C37D96200C7BCF5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3DD23DFE2C37898400C2DB0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DD23DFD2C37898400C2DB0E /* SignInSocial.app */,
+				3DD23E0F2C37898600C2DB0E /* SignInSocialTests.xctest */,
+				3DD23E192C37898600C2DB0E /* SignInSocialUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DD23DFF2C37898400C2DB0E /* SignInSocial */ = {
+			isa = PBXGroup;
+			children = (
+				3DD23E482C37A7E400C2DB0E /* SignInSocial.entitlements */,
+				3DD23E472C37A6E900C2DB0E /* Info.plist */,
+				3D802C6E2C37E71800C7BCF5 /* App */,
+				3DD23E352C379CB500C2DB0E /* CommonView */,
+				3DD23E4E2C37B27600C2DB0E /* Models */,
+				3DD23E2C2C3789CA00C2DB0E /* Core */,
+				3DD23E3E2C37A25200C2DB0E /* UIs */,
+				3D30DD112C3BCCDF006E083C /* Extensions */,
+				3DD23E062C37898600C2DB0E /* Assets.xcassets */,
+				3DD23E082C37898600C2DB0E /* Preview Content */,
+			);
+			path = SignInSocial;
+			sourceTree = "<group>";
+		};
+		3DD23E082C37898600C2DB0E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3DD23E092C37898600C2DB0E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3DD23E122C37898600C2DB0E /* SignInSocialTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DD23E132C37898600C2DB0E /* SignInSocialTests.swift */,
+			);
+			path = SignInSocialTests;
+			sourceTree = "<group>";
+		};
+		3DD23E1C2C37898700C2DB0E /* SignInSocialUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3DD23E1D2C37898700C2DB0E /* SignInSocialUITests.swift */,
+				3DD23E1F2C37898700C2DB0E /* SignInSocialUITestsLaunchTests.swift */,
+			);
+			path = SignInSocialUITests;
+			sourceTree = "<group>";
+		};
+		3DD23E2C2C3789CA00C2DB0E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3D30DD1A2C3BCFB0006E083C /* Wallets */,
+				3D30DD0B2C3BC2BC006E083C /* Authentications */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		3DD23E352C379CB500C2DB0E /* CommonView */ = {
+			isa = PBXGroup;
+			children = (
+				3DD23E3A2C379CD300C2DB0E /* SSButton.swift */,
+			);
+			path = CommonView;
+			sourceTree = "<group>";
+		};
+		3DD23E3E2C37A25200C2DB0E /* UIs */ = {
+			isa = PBXGroup;
+			children = (
+				3D30DD102C3BC731006E083C /* Main */,
+			);
+			path = UIs;
+			sourceTree = "<group>";
+		};
+		3DD23E4E2C37B27600C2DB0E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3DD23E4F2C37B28700C2DB0E /* DataState.swift */,
+				3D802C882C3B8CB900C7BCF5 /* SSError.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DD23DFC2C37898400C2DB0E /* SignInSocial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DD23E232C37898700C2DB0E /* Build configuration list for PBXNativeTarget "SignInSocial" */;
+			buildPhases = (
+				3DD23DF92C37898400C2DB0E /* Sources */,
+				3DD23DFA2C37898400C2DB0E /* Frameworks */,
+				3DD23DFB2C37898400C2DB0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SignInSocial;
+			packageProductDependencies = (
+				3D802C5A2C37D96200C7BCF5 /* FacebookCore */,
+				3D802C5C2C37D96200C7BCF5 /* FacebookLogin */,
+				3D802C7A2C37EA6700C7BCF5 /* GoogleSignInSwift */,
+				3D802C8D2C3B8E1800C7BCF5 /* OAuthSwift */,
+				3D30DD202C3BD145006E083C /* metamask-ios-sdk */,
+			);
+			productName = SignInSocial;
+			productReference = 3DD23DFD2C37898400C2DB0E /* SignInSocial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DD23E0E2C37898600C2DB0E /* SignInSocialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DD23E262C37898700C2DB0E /* Build configuration list for PBXNativeTarget "SignInSocialTests" */;
+			buildPhases = (
+				3DD23E0B2C37898600C2DB0E /* Sources */,
+				3DD23E0C2C37898600C2DB0E /* Frameworks */,
+				3DD23E0D2C37898600C2DB0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DD23E112C37898600C2DB0E /* PBXTargetDependency */,
+			);
+			name = SignInSocialTests;
+			packageProductDependencies = (
+				3D802C5E2C37D96C00C7BCF5 /* FacebookCore */,
+				3D802C602C37D96C00C7BCF5 /* FacebookLogin */,
+				3D802C7E2C37EA6E00C7BCF5 /* GoogleSignInSwift */,
+				3D802C8F2C3B8E2B00C7BCF5 /* OAuthSwift */,
+				3D30DD222C3BD167006E083C /* metamask-ios-sdk */,
+			);
+			productName = SignInSocialTests;
+			productReference = 3DD23E0F2C37898600C2DB0E /* SignInSocialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3DD23E182C37898600C2DB0E /* SignInSocialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DD23E292C37898700C2DB0E /* Build configuration list for PBXNativeTarget "SignInSocialUITests" */;
+			buildPhases = (
+				3DD23E152C37898600C2DB0E /* Sources */,
+				3DD23E162C37898600C2DB0E /* Frameworks */,
+				3DD23E172C37898600C2DB0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DD23E1B2C37898700C2DB0E /* PBXTargetDependency */,
+			);
+			name = SignInSocialUITests;
+			packageProductDependencies = (
+				3D802C622C37D97200C7BCF5 /* FacebookCore */,
+				3D802C642C37D97200C7BCF5 /* FacebookLogin */,
+				3D802C822C37EA7300C7BCF5 /* GoogleSignInSwift */,
+				3D802C912C3B8E3100C7BCF5 /* OAuthSwift */,
+				3D30DD242C3BD16D006E083C /* metamask-ios-sdk */,
+			);
+			productName = SignInSocialUITests;
+			productReference = 3DD23E192C37898600C2DB0E /* SignInSocialUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DD23DF52C37898400C2DB0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					3DD23DFC2C37898400C2DB0E = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					3DD23E0E2C37898600C2DB0E = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 3DD23DFC2C37898400C2DB0E;
+					};
+					3DD23E182C37898600C2DB0E = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 3DD23DFC2C37898400C2DB0E;
+					};
+				};
+			};
+			buildConfigurationList = 3DD23DF82C37898400C2DB0E /* Build configuration list for PBXProject "SignInSocial" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DD23DF42C37898400C2DB0E;
+			packageReferences = (
+				3D802C582C37D95300C7BCF5 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+				3D802C772C37EA2F00C7BCF5 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				3D802C8C2C3B8E1800C7BCF5 /* XCRemoteSwiftPackageReference "OAuthSwift" */,
+				3D30DD1F2C3BD145006E083C /* XCRemoteSwiftPackageReference "metamask-ios-sdk" */,
+			);
+			productRefGroup = 3DD23DFE2C37898400C2DB0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DD23DFC2C37898400C2DB0E /* SignInSocial */,
+				3DD23E0E2C37898600C2DB0E /* SignInSocialTests */,
+				3DD23E182C37898600C2DB0E /* SignInSocialUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DD23DFB2C37898400C2DB0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DD23E0A2C37898600C2DB0E /* Preview Assets.xcassets in Resources */,
+				3DD23E072C37898600C2DB0E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DD23E0D2C37898600C2DB0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DD23E172C37898600C2DB0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DD23DF92C37898400C2DB0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D802C742C37E8E100C7BCF5 /* GoogleAuthentication.swift in Sources */,
+				3D30DD082C3BC293006E083C /* TelegramAuthentication.swift in Sources */,
+				3D802C6B2C37DA9800C7BCF5 /* SocialAuthentication.swift in Sources */,
+				3DD23E4B2C37B1BF00C2DB0E /* MainViewModel.swift in Sources */,
+				3DD23E3B2C379CD300C2DB0E /* SSButton.swift in Sources */,
+				3D30DD032C3BBF65006E083C /* OauthApplication.swift in Sources */,
+				3D802C892C3B8CB900C7BCF5 /* SSError.swift in Sources */,
+				3D802C852C3B8B9F00C7BCF5 /* XAuthentication.swift in Sources */,
+				3D30DD2C2C3BD8B6006E083C /* Data+Extension.swift in Sources */,
+				3D30DD132C3BCCEC006E083C /* String+Extension.swift in Sources */,
+				3D802C702C37E72700C7BCF5 /* AppDelegate.swift in Sources */,
+				3D802C672C37D98C00C7BCF5 /* FacebookAuthentication.swift in Sources */,
+				3D30DCFF2C3BBAF1006E083C /* SceneDelegate.swift in Sources */,
+				3DD23E402C37A26800C2DB0E /* MainView.swift in Sources */,
+				3D30DD172C3BCD24006E083C /* TelegramResultModel.swift in Sources */,
+				3D30DD1C2C3BD05D006E083C /* WalletConnect.swift in Sources */,
+				3DD23E502C37B28700C2DB0E /* DataState.swift in Sources */,
+				3DD23E442C37A65300C2DB0E /* AppleAuthentication.swift in Sources */,
+				3DD23E012C37898400C2DB0E /* SignInSocialApp.swift in Sources */,
+				3D30DD0D2C3BC36B006E083C /* TelegramWebViewViewController.swift in Sources */,
+				3D30DD282C3BD430006E083C /* MetamasConnect.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DD23E0B2C37898600C2DB0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D802C752C37E8E100C7BCF5 /* GoogleAuthentication.swift in Sources */,
+				3D30DD092C3BC293006E083C /* TelegramAuthentication.swift in Sources */,
+				3D802C6C2C37DA9800C7BCF5 /* SocialAuthentication.swift in Sources */,
+				3DD23E4C2C37B1BF00C2DB0E /* MainViewModel.swift in Sources */,
+				3DD23E3C2C379CD300C2DB0E /* SSButton.swift in Sources */,
+				3D30DD042C3BBF65006E083C /* OauthApplication.swift in Sources */,
+				3D802C8A2C3B8CB900C7BCF5 /* SSError.swift in Sources */,
+				3D802C862C3B8B9F00C7BCF5 /* XAuthentication.swift in Sources */,
+				3D30DD2D2C3BD8B6006E083C /* Data+Extension.swift in Sources */,
+				3D30DD142C3BCCEC006E083C /* String+Extension.swift in Sources */,
+				3D802C712C37E72700C7BCF5 /* AppDelegate.swift in Sources */,
+				3D802C682C37D98C00C7BCF5 /* FacebookAuthentication.swift in Sources */,
+				3D30DD002C3BBAF1006E083C /* SceneDelegate.swift in Sources */,
+				3DD23E412C37A26800C2DB0E /* MainView.swift in Sources */,
+				3D30DD182C3BCD24006E083C /* TelegramResultModel.swift in Sources */,
+				3D30DD1D2C3BD05D006E083C /* WalletConnect.swift in Sources */,
+				3DD23E512C37B28700C2DB0E /* DataState.swift in Sources */,
+				3DD23E452C37A65300C2DB0E /* AppleAuthentication.swift in Sources */,
+				3DD23E142C37898600C2DB0E /* SignInSocialTests.swift in Sources */,
+				3D30DD0E2C3BC36B006E083C /* TelegramWebViewViewController.swift in Sources */,
+				3D30DD292C3BD430006E083C /* MetamasConnect.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DD23E152C37898600C2DB0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DD23E462C37A65300C2DB0E /* AppleAuthentication.swift in Sources */,
+				3D30DD192C3BCD24006E083C /* TelegramResultModel.swift in Sources */,
+				3D30DD012C3BBAF1006E083C /* SceneDelegate.swift in Sources */,
+				3D802C692C37D98C00C7BCF5 /* FacebookAuthentication.swift in Sources */,
+				3DD23E1E2C37898700C2DB0E /* SignInSocialUITests.swift in Sources */,
+				3DD23E522C37B28700C2DB0E /* DataState.swift in Sources */,
+				3D30DD2A2C3BD430006E083C /* MetamasConnect.swift in Sources */,
+				3D802C8B2C3B8CB900C7BCF5 /* SSError.swift in Sources */,
+				3DD23E422C37A26800C2DB0E /* MainView.swift in Sources */,
+				3DD23E3D2C379CD300C2DB0E /* SSButton.swift in Sources */,
+				3D30DD1E2C3BD05D006E083C /* WalletConnect.swift in Sources */,
+				3D802C762C37E8E100C7BCF5 /* GoogleAuthentication.swift in Sources */,
+				3DD23E202C37898700C2DB0E /* SignInSocialUITestsLaunchTests.swift in Sources */,
+				3D30DD152C3BCCEC006E083C /* String+Extension.swift in Sources */,
+				3D30DD0A2C3BC293006E083C /* TelegramAuthentication.swift in Sources */,
+				3D802C872C3B8B9F00C7BCF5 /* XAuthentication.swift in Sources */,
+				3D802C6D2C37DA9800C7BCF5 /* SocialAuthentication.swift in Sources */,
+				3D30DD052C3BBF65006E083C /* OauthApplication.swift in Sources */,
+				3D802C722C37E72700C7BCF5 /* AppDelegate.swift in Sources */,
+				3D30DD2E2C3BD8B6006E083C /* Data+Extension.swift in Sources */,
+				3D30DD0F2C3BC36B006E083C /* TelegramWebViewViewController.swift in Sources */,
+				3DD23E4D2C37B1BF00C2DB0E /* MainViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DD23E112C37898600C2DB0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DD23DFC2C37898400C2DB0E /* SignInSocial */;
+			targetProxy = 3DD23E102C37898600C2DB0E /* PBXContainerItemProxy */;
+		};
+		3DD23E1B2C37898700C2DB0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DD23DFC2C37898400C2DB0E /* SignInSocial */;
+			targetProxy = 3DD23E1A2C37898700C2DB0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3DD23E212C37898700C2DB0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3DD23E222C37898700C2DB0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DD23E242C37898700C2DB0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SignInSocial/SignInSocial.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SignInSocial/Preview Content\"";
+				DEVELOPMENT_TEAM = 529P86X2L9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SignInSocial/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pnam.sign-in-social";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DD23E252C37898700C2DB0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SignInSocial/SignInSocial.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SignInSocial/Preview Content\"";
+				DEVELOPMENT_TEAM = 529P86X2L9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SignInSocial/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pnam.sign-in-social";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3DD23E272C37898700C2DB0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 529P86X2L9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pnam.sign-in-social.Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SignInSocial.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SignInSocial";
+			};
+			name = Debug;
+		};
+		3DD23E282C37898700C2DB0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 529P86X2L9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pnam.sign-in-social.Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SignInSocial.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SignInSocial";
+			};
+			name = Release;
+		};
+		3DD23E2A2C37898700C2DB0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 529P86X2L9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pnam.sign-in-social.UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SignInSocial;
+			};
+			name = Debug;
+		};
+		3DD23E2B2C37898700C2DB0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 529P86X2L9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pnam.sign-in-social.UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SignInSocial;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DD23DF82C37898400C2DB0E /* Build configuration list for PBXProject "SignInSocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DD23E212C37898700C2DB0E /* Debug */,
+				3DD23E222C37898700C2DB0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DD23E232C37898700C2DB0E /* Build configuration list for PBXNativeTarget "SignInSocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DD23E242C37898700C2DB0E /* Debug */,
+				3DD23E252C37898700C2DB0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DD23E262C37898700C2DB0E /* Build configuration list for PBXNativeTarget "SignInSocialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DD23E272C37898700C2DB0E /* Debug */,
+				3DD23E282C37898700C2DB0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DD23E292C37898700C2DB0E /* Build configuration list for PBXNativeTarget "SignInSocialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DD23E2A2C37898700C2DB0E /* Debug */,
+				3DD23E2B2C37898700C2DB0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3D30DD1F2C3BD145006E083C /* XCRemoteSwiftPackageReference "metamask-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MetaMask/metamask-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.6.5;
+			};
+		};
+		3D802C582C37D95300C7BCF5 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 14.1.0;
+			};
+		};
+		3D802C772C37EA2F00C7BCF5 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		3D802C8C2C3B8E1800C7BCF5 /* XCRemoteSwiftPackageReference "OAuthSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OAuthSwift/OAuthSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3D30DD202C3BD145006E083C /* metamask-ios-sdk */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D30DD1F2C3BD145006E083C /* XCRemoteSwiftPackageReference "metamask-ios-sdk" */;
+			productName = "metamask-ios-sdk";
+		};
+		3D30DD222C3BD167006E083C /* metamask-ios-sdk */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D30DD1F2C3BD145006E083C /* XCRemoteSwiftPackageReference "metamask-ios-sdk" */;
+			productName = "metamask-ios-sdk";
+		};
+		3D30DD242C3BD16D006E083C /* metamask-ios-sdk */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D30DD1F2C3BD145006E083C /* XCRemoteSwiftPackageReference "metamask-ios-sdk" */;
+			productName = "metamask-ios-sdk";
+		};
+		3D802C5A2C37D96200C7BCF5 /* FacebookCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D802C582C37D95300C7BCF5 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookCore;
+		};
+		3D802C5C2C37D96200C7BCF5 /* FacebookLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D802C582C37D95300C7BCF5 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookLogin;
+		};
+		3D802C5E2C37D96C00C7BCF5 /* FacebookCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D802C582C37D95300C7BCF5 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookCore;
+		};
+		3D802C602C37D96C00C7BCF5 /* FacebookLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D802C582C37D95300C7BCF5 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookLogin;
+		};
+		3D802C622C37D97200C7BCF5 /* FacebookCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D802C582C37D95300C7BCF5 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookCore;
+		};
+		3D802C642C37D97200C7BCF5 /* FacebookLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D802C582C37D95300C7BCF5 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookLogin;
+		};
+		3D802C7A2C37EA6700C7BCF5 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D802C772C37EA2F00C7BCF5 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		3D802C7E2C37EA6E00C7BCF5 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D802C772C37EA2F00C7BCF5 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		3D802C822C37EA7300C7BCF5 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D802C772C37EA2F00C7BCF5 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		3D802C8D2C3B8E1800C7BCF5 /* OAuthSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D802C8C2C3B8E1800C7BCF5 /* XCRemoteSwiftPackageReference "OAuthSwift" */;
+			productName = OAuthSwift;
+		};
+		3D802C8F2C3B8E2B00C7BCF5 /* OAuthSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D802C8C2C3B8E1800C7BCF5 /* XCRemoteSwiftPackageReference "OAuthSwift" */;
+			productName = OAuthSwift;
+		};
+		3D802C912C3B8E3100C7BCF5 /* OAuthSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D802C8C2C3B8E1800C7BCF5 /* XCRemoteSwiftPackageReference "OAuthSwift" */;
+			productName = OAuthSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3DD23DF52C37898400C2DB0E /* Project object */;
+}
